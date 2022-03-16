@@ -23,7 +23,7 @@ window.addEventListener("scroll", function () {
 }, false);
 
 var loadSmth = function () {
-  while (document.body.offsetHeight < window.innerHeight) {
+  while (document.body.offsetHeight < window.innerHeight + scrollOffset) {
     loadMore();
   }
 }

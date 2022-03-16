@@ -41,7 +41,7 @@ body {
   bottom: 0;
   border: 0.5vw solid white;
   border-radius: 20%;
-  box-shadow: 0.5vw 0.5vw rgba(0, 0, 0, 0.2);
+  box-shadow: 0 0.5vw rgba(0, 0, 0, 0.2);
 }
 
 .selected .avatar-border {
@@ -60,7 +60,7 @@ body {
   width: 5vw;
   height: 5vw;
   border-radius: 50%;
-  box-shadow: 0.5vw 0.5vw rgba(0, 0, 0, 0.2);
+  box-shadow: 0 0.5vw rgba(0, 0, 0, 0.2);
 }
 
 .selected .avatar-mark {
