@@ -1,1 +1,0 @@
-golfnorth.github.io
