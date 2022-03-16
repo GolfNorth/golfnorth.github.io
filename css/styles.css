@@ -1,0 +1,100 @@
+body {
+  background-color: #A5CBE7;
+  overflow: hidden;
+}
+
+.container{
+  display: inline-flex;
+  padding: 2vw 4vw;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.blank {
+  width: 16vw;
+  height: 16vw;
+}
+
+.avatar {
+  position: relative;
+  margin-bottom: 2vw;
+  width: 16vw;
+  height: 16vw;
+}
+
+.avatar-content {
+  background-color: #4BC429;
+  position: absolute;
+  top: 0.5vw;
+  left: 0.5vw;
+  right: 0.5vw;
+  bottom: 0.5vw;
+  overflow: hidden;
+  border-radius: 20%;
+}
+
+.avatar-border {
+  background-color: #BEE575;
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border: 0.5vw solid white;
+  border-radius: 20%;
+  box-shadow: 0.5vw 0.5vw rgba(0, 0, 0, 0.2);
+}
+
+.selected .avatar-border {
+  top: -1vw;
+  left: -1vw;
+  right: -1vw;
+  bottom: -1vw;
+}
+
+.avatar-mark {
+  display: none;
+  background-color: white;
+  position: absolute;
+  bottom: -1vw;
+  right: -1vw;
+  width: 5vw;
+  height: 5vw;
+  border-radius: 50%;
+  box-shadow: 0.5vw 0.5vw rgba(0, 0, 0, 0.2);
+}
+
+.selected .avatar-mark {
+  display: inherit;
+}
+
+.avatar-mark-image {
+  position: absolute;
+  width: 75%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.avatar-image {
+  width: 100%;
+}
+
+.loading .avatar-image {
+  display: none;
+}
+
+.loading-image {
+  position: absolute;
+  display: none;
+  width: 80%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.loading .loading-image {
+  display: inherit;
+}

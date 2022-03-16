@@ -1,0 +1,15 @@
+{
+  "bundles": [
+    {
+      "name": "com.foranj.farmtown",
+      "aliases": [
+        {
+          "name": "com.amazonforanj.farmtown"
+        },
+        {
+          "name": "com.foranj.farmtown3"
+        }
+      ]
+    }
+  ]
+}
