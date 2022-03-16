@@ -1,19 +1,16 @@
 body {
   background-color: #A5CBE7;
-  overflow: hidden;
+  overflow-y: auto;
+  overflow-x: hidden;
 }
 
 .container{
   display: inline-flex;
   padding: 2vw 4vw;
+  width: 92vw;
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
-}
-
-.blank {
-  width: 16vw;
-  height: 16vw;
 }
 
 .avatar {
@@ -97,4 +94,8 @@ body {
 
 .loading .loading-image {
   display: inherit;
+}
+
+.hidden{
+  display: none;
 }

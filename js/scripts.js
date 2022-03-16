@@ -1,33 +1,31 @@
 var url = new URL(window.location.href);
 var bundle = url.searchParams.get("bundle");
 var current = url.searchParams.get("current");
-var container = document.querySelector('.container');
+var containerElement = document.querySelector('.container');
+var avatarElement = document.querySelector('.avatar');
+var columnCount = 5;
+var scrollOffset = 10;
 
-console.log(current)
-
-// Add 20 items.
-var nextItem = 1;
-var loadMore = function() {
-  for (var i = 0; i < 4; i++) {
-    var item = document.createElement('li');
-    item.innerText = 'Item ' + nextItem++;
-    container.appendChild(item);
+var nextItem = 0;
+var loadMore = function () {
+  for (var i = 0; i < columnCount; i++) {
+    var cloneElement = avatarElement.cloneNode(true);
+    cloneElement.classList.remove("hidden");
+    cloneElement.classList.add("loading")
+    containerElement.appendChild(cloneElement);
   }
 }
 
-// Detect when scrolled to bottom.
-container.addEventListener('scroll', function() {
-  if (container.scrollTop + container.clientHeight >= container.scrollHeight) {
-    //loadMore();
+window.addEventListener("scroll", function () {
+  if ((window.innerHeight + window.scrollY + scrollOffset) >= document.body.offsetHeight) {
+    loadMore();
   }
-});
+}, false);
 
-var loadSmth = function() {
-    while(container.scrollTop + container.clientHeight >= container.scrollHeight){
-        loadMore();
-    }
+var loadSmth = function () {
+  while (document.body.offsetHeight < window.innerHeight) {
+    loadMore();
+  }
 }
 
-// Initially load some items.
-//loadMore();
-//loadSmth();
+loadSmth();
