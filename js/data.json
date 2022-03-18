@@ -2,7 +2,6 @@
   "avatars": [
     {
       "bundle": "",
-      "aliases": [],
       "avatars": [
         {
           "name": "Default",
@@ -12,14 +11,6 @@
     },
     {
       "bundle": "com.foranj.farmtown",
-      "aliases": [
-        {
-          "name": "com.amazonforanj.farmtown"
-        },
-        {
-          "name": "com.foranj.farmtown"
-        }
-      ],
       "avatars": [
         {
           "name": "Florist",
@@ -61,7 +52,6 @@
     },
     {
       "bundle": "com.foranj.mergedetective",
-      "aliases": [],
       "avatars": [
         {
           "name": "Arthur",
