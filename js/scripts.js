@@ -91,7 +91,10 @@ var initLoader = function (bundle, avatars) {
 
   let selectAvatar = function (selectedElement, avatar) {
     let oldSelectedElement = containerElement.querySelector('.avatar.selected');
-    oldSelectedElement.classList.remove('selected');
+
+    if (oldSelectedElement != null) {
+      oldSelectedElement.classList.remove('selected');
+    }
 
     selectedElement.classList.add('selected');
 
