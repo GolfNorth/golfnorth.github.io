@@ -19,7 +19,7 @@ var init = function (data) {
 
   for (bundleAvatars of data.avatars) {
     for (avatarData of bundleAvatars.avatars) {
-      avatars[index] = new Avatar(avatarData, currentAvatar, bundle);
+      avatars[index] = new Avatar(avatarData, currentAvatar, bundleAvatars.bundle);
 
       index++;
     }
@@ -135,13 +135,13 @@ function Bundle(url, data) {
   }
 }
 
-function Avatar(avatarData, currentAvatar, bundle) {
+function Avatar(avatarData, currentAvatar, bundleName) {
   this.name = avatarData.name;
   this.url = avatarData.url;
-  this.bundle = bundle.name;
+  this.bundle = bundleName;
   this.current = avatarData.url == currentAvatar;
 
-  if (currentAvatar == 'Default') {
+  if (!this.current && currentAvatar == 'Default' && bundleName == 'Default') {
     this.current = true;
   }
 }
