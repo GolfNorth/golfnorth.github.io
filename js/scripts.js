@@ -19,7 +19,7 @@ var init = function (data) {
 
   for (bundleAvatars of data.avatars) {
     for (avatarData of bundleAvatars.avatars) {
-      avatars[index] = new Avatar(avatarData, currentAvatar);
+      avatars[index] = new Avatar(avatarData, currentAvatar, bundle);
 
       index++;
     }
@@ -72,12 +72,10 @@ var initLoader = function (bundle, avatars) {
     cloneElement.classList.remove('hidden');
     cloneElement.classList.add('loading');
     cloneElement.addEventListener('click', function () {
-      selectAvatar(cloneElement);
-
-      console.log(`selected:${avatar.url}`);
+      selectAvatar(cloneElement, avatar);
     })
 
-    if (avatar.selected) {
+    if (avatar.current) {
       cloneElement.classList.add('selected');
     }
 
@@ -90,11 +88,13 @@ var initLoader = function (bundle, avatars) {
     containerElement.appendChild(cloneElement);
   }
 
-  let selectAvatar = function (selectedElement) {
+  let selectAvatar = function (selectedElement, avatar) {
     let oldSelectedElement = containerElement.querySelector('.avatar.selected');
     oldSelectedElement.classList.remove('selected');
 
     selectedElement.classList.add('selected');
+
+    console.log(`selected:${JSON.stringify(avatar)}`);
   }
 
   let fillGap = function () {
@@ -135,13 +135,14 @@ function Bundle(url, data) {
   }
 }
 
-function Avatar(avatarData, currentAvatar) {
+function Avatar(avatarData, currentAvatar, bundle) {
   this.name = avatarData.name;
   this.url = avatarData.url;
-  this.selected = avatarData.url == currentAvatar;
+  this.bundle = bundle.name;
+  this.current = avatarData.url == currentAvatar;
 
   if (currentAvatar == 'Default') {
-    this.selected = true;
+    this.current = true;
   }
 }
 
