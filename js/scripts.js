@@ -81,6 +81,7 @@ var initLoader = function (bundle, avatars) {
 
     let imageElement = cloneElement.querySelector('.avatar-image');
     imageElement.src = avatar.url;
+    imageElement.alt = avatar.name;
     imageElement.addEventListener('load', function () {
       cloneElement.classList.remove('loading');
     });
