@@ -1,7 +1,7 @@
 {
-  "bundles": [
+  "avatars": [
     {
-      "name": "",
+      "bundle": "",
       "aliases": [],
       "avatars": [
         {
@@ -11,7 +11,7 @@
       ]
     },
     {
-      "name": "com.foranj.farmtown",
+      "bundle": "com.foranj.farmtown",
       "aliases": [
         {
           "name": "com.amazonforanj.farmtown"
@@ -60,7 +60,7 @@
       ]
     },
     {
-      "name": "com.foranj.mergedetective",
+      "bundle": "com.foranj.mergedetective",
       "aliases": [],
       "avatars": [
         {
@@ -92,6 +92,23 @@
           "url": "avatars/MD_thompson.png"
         }
       ]
+    }
+  ],
+  "aliases": [
+    {
+      "bundle": "com.amazonforanj.farmtown",
+      "alias": "com.foranj.farmtown"
+    },
+    {
+      "bundle": "com.foranj.farmtown3",
+      "alias": "com.foranj.farmtown"
+    }
+  ],
+  "styles": [
+    {
+      "bundle": "com.foranj.farmtown",
+      "stylesheet": "styles/farmtown.css",
+      "columnCount": 5
     }
   ]
 }

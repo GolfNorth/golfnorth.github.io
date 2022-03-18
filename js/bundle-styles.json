@@ -1,9 +1,0 @@
-{
-  "bundles": [
-    {
-      "name": "com.foranj.farmtown",
-      "style": "styles/farmtown.css",
-      "columnCount": 5
-    }
-  ]
-}
