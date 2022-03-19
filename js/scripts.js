@@ -98,7 +98,7 @@ var initLoader = function (bundle, avatars) {
 
     selectedElement.classList.add('selected');
 
-    console.log(`selected:${JSON.stringify(avatar)}`);
+    Unity.call(`selected:${JSON.stringify(avatar)}`);
   }
 
   let fillGap = function () {
