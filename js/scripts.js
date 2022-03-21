@@ -104,6 +104,10 @@ var initLoader = function (bundle, avatars) {
     let oldSelectedElement = containerElement.querySelector('.avatar.selected');
 
     if (oldSelectedElement != null) {
+      if (oldSelectedElement == selectedElement) {
+        return;
+      }
+
       oldSelectedElement.classList.remove('selected');
     }
 
