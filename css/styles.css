@@ -54,7 +54,7 @@ body {
   bottom: 0;
   border: 0.5vw solid white;
   border-radius: 20%;
-  box-shadow: 0 0.5vw rgba(0, 0, 0, 0.2);
+  box-shadow: 0 0.5vw #84a2b9;
 }
 
 .selected .avatar-border {
