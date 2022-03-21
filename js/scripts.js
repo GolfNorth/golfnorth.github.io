@@ -109,7 +109,7 @@ var initLoader = function (bundle, avatars) {
 
     selectedElement.classList.add('selected');
 
-    Unity.call(`selected:${JSON.stringify(avatar)}`);
+    send(`selected:${JSON.stringify(avatar)}`);
   }
 
   let fillGap = function () {
@@ -125,6 +125,14 @@ var initLoader = function (bundle, avatars) {
   }, false);
 
   loadPage();
+}
+
+var send = function (msg) {
+  if (typeof Unity !== 'undefined') {
+    Unity.call(msg);
+  } else {
+    console.log(msg);
+  }
 }
 
 function Bundle(url, data) {
@@ -164,4 +172,4 @@ function Avatar(avatarData, currentAvatar, bundleName) {
 fetch('js/data.json?rnd=' + new Date().getTime())
   .then(response => response.json())
   .then(data => init(data))
-  .catch(error => console.log(error));
+  .catch(error => send(`error:${error}`));
