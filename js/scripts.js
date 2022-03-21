@@ -25,6 +25,17 @@ var init = function (data) {
     }
   }
 
+  if (bundle.stylesheet != '') {
+    let head = document.head;
+    let link = document.createElement("link");
+
+    link.type = "text/css";
+    link.rel = "stylesheet";
+    link.href = bundle.stylesheet;
+
+    head.appendChild(link);
+  }
+
   initLoader(bundle, avatars);
 }
 

@@ -97,7 +97,7 @@
   "styles": [
     {
       "bundle": "com.foranj.farmtown",
-      "stylesheet": "styles/farmtown.css",
+      "stylesheet": "css/farmtown.css",
       "columnCount": 5
     }
   ]
