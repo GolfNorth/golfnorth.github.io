@@ -1,6 +1,5 @@
 body {
-  /*background-color: #A5CBE7;*/
-  background-color: #4BC429;
+  background-color: #A5CBE7;
   overflow-y: auto;
   overflow-x: hidden;
 }
@@ -53,7 +52,7 @@ body {
   left: 0;
   right: 0;
   bottom: 0;
-  border: 0.5vw solid white;
+  border: 0.5vw solid #eeeeee;
   border-radius: 20%;
   box-shadow: 0 0.5vw #84a2b9;
 }
@@ -67,7 +66,7 @@ body {
 
 .avatar-mark {
   display: none;
-  background-color: white;
+  background-color: #eeeeee;
   position: absolute;
   bottom: -1vw;
   right: -1vw;
