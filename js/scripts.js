@@ -161,7 +161,7 @@ function Avatar(avatarData, currentAvatar, bundleName) {
   }
 }
 
-fetch('js/data.json')
+fetch('js/data.json?rnd=' + new Date().getTime())
   .then(response => response.json())
   .then(data => init(data))
   .catch(error => console.log(error));
