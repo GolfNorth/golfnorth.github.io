@@ -38,10 +38,6 @@ body {
 
 .avatar-content:active {
   background-color: #BEE575;
-  top: 1vw;
-  left: 1vw;
-  right: 1vw;
-  bottom: 1vw;
 }
 
 .avatar-border {
@@ -52,8 +48,9 @@ body {
   left: 0;
   right: 0;
   bottom: 0;
-  border: 0.5vw solid #eeeeee;
+  border: 0.5vw solid white;
   border-radius: 20%;
+  box-shadow: 0 0.5vw rgba(0, 0, 0, 0.2);
 }
 
 .selected .avatar-border {
@@ -65,13 +62,14 @@ body {
 
 .avatar-mark {
   display: none;
-  background-color: #eeeeee;
+  background-color: white;
   position: absolute;
   bottom: -1vw;
   right: -1vw;
   width: 5vw;
   height: 5vw;
   border-radius: 50%;
+  box-shadow: 0 0.5vw rgba(0, 0, 0, 0.2);
 }
 
 .selected .avatar-mark {
