@@ -83,7 +83,7 @@ var initLoader = function (bundle, avatars) {
     cloneElement.classList.remove('hidden');
     cloneElement.classList.add('loading');
     cloneElement.addEventListener('click', function () {
-      send('clicked');
+      send('Clicked');
       selectAvatar(cloneElement, avatar);
     })
 
@@ -113,7 +113,7 @@ var initLoader = function (bundle, avatars) {
 
     selectedElement.classList.add('selected');
 
-    send(`selected:${avatar.default ? 'Default' : avatar.current ? 'Current' : avatar.url}`);
+    send(`Selected:${avatar.default ? 'Default' : avatar.current ? 'Current' : avatar.url}`);
   }
 
   let fillGap = function () {
@@ -182,4 +182,4 @@ fetch('js/data.json?rnd=' + new Date().getTime())
     return response.json();
   })
   .then(data => init(data))
-  .catch(error => send(`error:${error.toString().replace(/^[^ ]* /, '')}`));
+  .catch(error => send(`Error:${error.toString().replace(/^[^ ]* /, '')}`));
