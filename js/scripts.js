@@ -83,6 +83,7 @@ var initLoader = function (bundle, avatars) {
     cloneElement.classList.remove('hidden');
     cloneElement.classList.add('loading');
     cloneElement.addEventListener('click', function () {
+      send('clicked');
       selectAvatar(cloneElement, avatar);
     })
 
