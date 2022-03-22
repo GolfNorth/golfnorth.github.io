@@ -113,7 +113,7 @@ var initLoader = function (bundle, avatars) {
 
     selectedElement.classList.add('selected');
 
-    send(`Selected:${avatar.default ? 'Default' : avatar.current ? 'Current' : avatar.url}`);
+    send(`Selected:${avatar.default ? 'Default' : avatar.url}`);
   }
 
   let fillGap = function () {
