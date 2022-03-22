@@ -18,8 +18,8 @@ var init = function (data) {
   });
 
   for (bundleAvatars of data.avatars) {
-    for (avatarData of bundleAvatars.avatars) {
-      avatars[index] = new Avatar(avatarData, currentAvatar, bundleAvatars.bundle);
+    for (avatarUrl of bundleAvatars.urls) {
+      avatars[index] = new Avatar(avatarUrl, currentAvatar, bundleAvatars.bundle);
 
       index++;
     }
@@ -93,7 +93,6 @@ var initLoader = function (bundle, avatars) {
 
     let imageElement = cloneElement.querySelector('.avatar-image');
     imageElement.src = avatar.url;
-    imageElement.alt = avatar.name;
     imageElement.addEventListener('load', function () {
       cloneElement.classList.remove('loading');
     });
@@ -114,7 +113,7 @@ var initLoader = function (bundle, avatars) {
 
     selectedElement.classList.add('selected');
 
-    send(`selected:${JSON.stringify(avatar)}`);
+    send(`selected:${avatar.default ? 'Default' : avatar.current ? 'Current' : avatar.url}`);
   }
 
   let fillGap = function () {
@@ -163,13 +162,13 @@ function Bundle(url, data) {
   }
 }
 
-function Avatar(avatarData, currentAvatar, bundleName) {
-  this.name = avatarData.name;
-  this.url = avatarData.url;
+function Avatar(avatarUrl, currentAvatar, bundleName) {
+  this.url = avatarUrl;
   this.bundle = bundleName;
-  this.current = avatarData.url == currentAvatar;
+  this.default = bundleName == 'Default';
+  this.current = avatarUrl == currentAvatar;
 
-  if (!this.current && currentAvatar == 'Default' && bundleName == 'Default') {
+  if (!this.current && this.default && currentAvatar == 'Default') {
     this.current = true;
   }
 }
