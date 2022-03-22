@@ -2,85 +2,58 @@
   "avatars": [
     {
       "bundle": "Default",
-      "avatars": [
-        {
-          "name": "Default",
-          "url": "avatars/0.png"
-        }
+      "urls": [
+        "avatars/0.png"
       ]
     },
     {
       "bundle": "com.foranj.farmtown",
-      "avatars": [
-        {
-          "name": "Florist",
-          "url": "avatars/Florist.png"
-        },
-        {
-          "name": "Grandpa",
-          "url": "avatars/Grandpa.png"
-        },
-        {
-          "name": "Granny",
-          "url": "avatars/Granny.png"
-        },
-        {
-          "name": "Hippie",
-          "url": "avatars/Hippie.png"
-        },
-        {
-          "name": "James",
-          "url": "avatars/James.png"
-        },
-        {
-          "name": "June",
-          "url": "avatars/June.png"
-        },
-        {
-          "name": "Kid",
-          "url": "avatars/Kid.png"
-        },
-        {
-          "name": "Major",
-          "url": "avatars/Major.png"
-        },
-        {
-          "name": "Teacher",
-          "url": "avatars/Teacher.png"
-        }
+      "urls": [
+        "avatars/Florist.png",
+        "avatars/Florist.png",
+        "avatars/Granny.png",
+        "avatars/Hippie.png",
+        "avatars/James.png",
+        "avatars/June.png",
+        "avatars/Kid.png",
+        "avatars/Major.png",
+        "avatars/Teacher.png"
+      ]
+    },
+    {
+      "bundle": "com.foranj.monsterfarm",
+      "urls": [
+        "avatars/HF_adrian.png",
+        "avatars/HF_bird.png",
+        "avatars/HF_boy_dinosaur.png",
+        "avatars/HF_boy_frankenstein.png",
+        "avatars/HF_boy_mummy.png",
+        "avatars/HF_delivery_witch.png",
+        "avatars/HF_girl_japan.png",
+        "avatars/HF_girl_mexican.png",
+        "avatars/HF_girl_pirate.png",
+        "avatars/HF_girl_queen.png",
+        "avatars/HF_girl_witch.png",
+        "avatars/HF_igor.png",
+        "avatars/HF_main_witch.png",
+        "avatars/HF_pumpkin.png",
+        "avatars/HF_scarecrow.png",
+        "avatars/HF_spider.png",
+        "avatars/HF_vampire.png",
+        "avatars/HF_wolf.png",
+        "avatars/HF_zombie.png"
       ]
     },
     {
       "bundle": "com.foranj.mergedetective",
-      "avatars": [
-        {
-          "name": "Arthur",
-          "url": "avatars/MD_arthur.png"
-        },
-        {
-          "name": "Lucy",
-          "url": "avatars/MD_lucy.png"
-        },
-        {
-          "name": "Michael",
-          "url": "avatars/MD_michael.png"
-        },
-        {
-          "name": "Nancy",
-          "url": "avatars/MD_nancy.png"
-        },
-        {
-          "name": "Rose",
-          "url": "avatars/MD_rose.png"
-        },
-        {
-          "name": "Sam",
-          "url": "avatars/MD_sam.png"
-        },
-        {
-          "name": "Thompson",
-          "url": "avatars/MD_thompson.png"
-        }
+      "urls": [
+        "avatars/MD_arthur.png",
+        "avatars/MD_lucy.png",
+        "avatars/MD_michael.png",
+        "avatars/MD_nancy.png",
+        "avatars/MD_rose.png",
+        "avatars/MD_sam.png",
+        "avatars/MD_thompson.png"
       ]
     }
   ],
