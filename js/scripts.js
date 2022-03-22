@@ -175,6 +175,12 @@ function Avatar(avatarData, currentAvatar, bundleName) {
 }
 
 fetch('js/data.json?rnd=' + new Date().getTime())
-  .then(response => response.json())
+  .then(response => {
+    if (!response.ok) {
+      throw new Error(response.statusText);
+    }
+
+    return response.json();
+  })
   .then(data => init(data))
-  .catch(error => send(`error:${error}`));
+  .catch(error => send(`error:${error.toString().replace(/^[^ ]* /, '')}`));
