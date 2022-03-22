@@ -9,51 +9,51 @@
     {
       "bundle": "com.foranj.farmtown",
       "urls": [
-        "avatars/Florist.png",
-        "avatars/Grandpa.png",
-        "avatars/Granny.png",
-        "avatars/Hippie.png",
-        "avatars/James.png",
         "avatars/June.png",
-        "avatars/Kid.png",
+        "avatars/Granny.png",
+        "avatars/James.png",
+        "avatars/Teacher.png",
         "avatars/Major.png",
-        "avatars/Teacher.png"
+        "avatars/Hippie.png",
+        "avatars/Grandpa.png",
+        "avatars/Florist.png",
+        "avatars/Kid.png"
       ]
     },
     {
       "bundle": "com.foranj.monsterfarm",
       "urls": [
+        "avatars/HF_main_witch.png",
         "avatars/HF_adrian.png",
-        "avatars/HF_bird.png",
-        "avatars/HF_boy_dinosaur.png",
-        "avatars/HF_boy_frankenstein.png",
-        "avatars/HF_boy_mummy.png",
+        "avatars/HF_vampire.png",
         "avatars/HF_delivery_witch.png",
         "avatars/HF_girl_japan.png",
         "avatars/HF_girl_mexican.png",
         "avatars/HF_girl_pirate.png",
         "avatars/HF_girl_queen.png",
+        "avatars/HF_boy_dinosaur.png",
+        "avatars/HF_boy_mummy.png",
         "avatars/HF_girl_witch.png",
-        "avatars/HF_igor.png",
-        "avatars/HF_main_witch.png",
+        "avatars/HF_boy_frankenstein.png",
         "avatars/HF_pumpkin.png",
+        "avatars/HF_bird.png",
+        "avatars/HF_wolf.png",
         "avatars/HF_scarecrow.png",
         "avatars/HF_spider.png",
-        "avatars/HF_vampire.png",
-        "avatars/HF_wolf.png",
+        "avatars/HF_igor.png",
         "avatars/HF_zombie.png"
       ]
     },
     {
       "bundle": "com.foranj.mergedetective",
       "urls": [
-        "avatars/MD_arthur.png",
-        "avatars/MD_lucy.png",
-        "avatars/MD_michael.png",
         "avatars/MD_nancy.png",
-        "avatars/MD_rose.png",
+        "avatars/MD_lucy.png",
+        "avatars/MD_thompson.png",
         "avatars/MD_sam.png",
-        "avatars/MD_thompson.png"
+        "avatars/MD_rose.png",
+        "avatars/MD_arthur.png",
+        "avatars/MD_michael.png"
       ]
     }
   ],
