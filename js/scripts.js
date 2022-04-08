@@ -173,6 +173,24 @@ function Avatar(avatarUrl, currentAvatar, bundleName) {
   }
 }
 
+if (window && window.webkit && window.webkit.messageHandlers && window.webkit.messageHandlers.unityControl) {
+  window.Unity = {
+    call: function(msg) {
+      window.webkit.messageHandlers.unityControl.postMessage(msg);
+    }
+  }
+} else if (typeof Unity === 'undefined') {
+  window.Unity = {
+    call: function(msg) {
+      var iframe = document.createElement('IFRAME');
+      iframe.setAttribute('src', 'unity:' + msg);
+      document.documentElement.appendChild(iframe);
+      iframe.parentNode.removeChild(iframe);
+      iframe = null;
+    }
+  }
+}
+
 fetch('js/data.json?rnd=' + new Date().getTime())
   .then(response => {
     if (!response.ok) {
