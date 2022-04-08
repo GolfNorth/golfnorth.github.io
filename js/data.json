@@ -9,15 +9,23 @@
     {
       "bundle": "com.foranj.farmtown",
       "urls": [
-        "avatars/June.png",
-        "avatars/Granny.png",
-        "avatars/James.png",
-        "avatars/Teacher.png",
-        "avatars/Major.png",
-        "avatars/Hippie.png",
-        "avatars/Grandpa.png",
-        "avatars/Florist.png",
-        "avatars/Kid.png"
+        "avatars/FT_june.png",
+        "avatars/FT_granny.png",
+        "avatars/FT_james.png",
+        "avatars/FT_teacher.png",
+        "avatars/FT_major.png",
+        "avatars/FT_hippie.png",
+        "avatars/FT_grandpa.png",
+        "avatars/FT_florist.png",
+        "avatars/FT_kid.png",
+        "avatars/CS_builder.png",
+        "avatars/CS_captain.png",
+        "avatars/CS_machinist.png",
+        "avatars/CS_mayor.png",
+        "avatars/CS_pilot.png",
+        "avatars/R_professor.png",
+        "avatars/R_leo.png",
+        "avatars/R_vivien.png"
       ]
     },
     {
