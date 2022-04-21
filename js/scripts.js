@@ -2,6 +2,7 @@ var init = function (data) {
   let url = new URL(window.location.href);
   let bundle = new Bundle(url, data);
   let currentAvatar = url.searchParams.get('current');
+  let socials = url.searchParams.getAll('social');
   let avatars = [];
   let index = 0;
 
@@ -16,6 +17,12 @@ var init = function (data) {
 
     return 0;
   });
+
+  for (socialUrl of socials){
+    avatars[index] = new Avatar(socialUrl, currentAvatar, 'Socials')
+
+    index++;
+  }
 
   for (bundleAvatars of data.avatars) {
     for (avatarUrl of bundleAvatars.urls) {
