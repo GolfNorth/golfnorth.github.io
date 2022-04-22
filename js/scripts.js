@@ -18,7 +18,7 @@ var init = function (data) {
     return 0;
   });
 
-  for (socialUrl of socials){
+  for (socialUrl of socials) {
     avatars[index] = new Avatar(socialUrl, currentAvatar, 'Socials')
 
     index++;
@@ -50,6 +50,7 @@ var initLoader = function (bundle, avatars) {
   let containerElement = document.querySelector('.container');
   let avatarElement = document.querySelector('.avatar');
   let gapElement = document.querySelector('.gap');
+  let canvas = document.querySelector('canvas');
   let scrollOffset = window.innerHeight * 0.05;
   let columnCount = bundle.columnCount;
   let totalCount = avatars.length;
@@ -121,6 +122,21 @@ var initLoader = function (bundle, avatars) {
     selectedElement.classList.add('selected');
 
     send(`Selected:${avatar.default ? 'Default' : avatar.url}`);
+    send(`Base64:${getBase64Image(selectedElement)}`);
+  }
+
+  let getBase64Image = function (selectedElement) {
+    let imageElement = selectedElement.querySelector('.avatar-image');
+
+    canvas.width = imageElement.naturalWidth;
+    canvas.height = imageElement.naturalHeight;
+
+    let context = canvas.getContext('2d');
+    context.drawImage(imageElement, 0, 0);
+
+    let dataURL = canvas.toDataURL('image/png');
+
+    return dataURL.replace(/^data:image\/(png|jpg);base64,/, "");
   }
 
   let fillGap = function () {
