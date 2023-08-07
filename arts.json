@@ -4,6 +4,12 @@
     "arts": [
         {
             "id": "AB01",
+            "price": [
+                {
+                    "item": "coins",
+                    "count": 5
+                }
+            ],
             "file": "Coloring_AB01_GirlWithFlower.png",
             "tags": [
                 "art"
