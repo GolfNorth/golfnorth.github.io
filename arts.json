@@ -10,14 +10,14 @@
                     "count": 5
                 }
             ],
-            "file": "Coloring_AB01_GirlWithFlower.png",
+            "file": "Coloring_AB01_GirlWithFlower.webp",
             "tags": [
                 "art"
             ]
         },
         {
             "id": "ag001",
-            "file": "Coloring_ag001_HorseAndGirl_bright.png",
+            "file": "Coloring_ag001_HorseAndGirl_bright.webp",
             "tags": [
                 "aptitude",
                 "imagination",
@@ -26,21 +26,21 @@
         },
         {
             "id": "ag002",
-            "file": "Coloring_ag002_Fish.png",
+            "file": "Coloring_ag002_Fish.webp",
             "tags": [
                 "knack"
             ]
         },
         {
             "id": "ag005",
-            "file": "Coloring_ag005_Birds.png",
+            "file": "Coloring_ag005_Birds.webp",
             "tags": [
                 "art"
             ]
         },
         {
             "id": "ag006",
-            "file": "Coloring_ag006_PizzaGirl.png",
+            "file": "Coloring_ag006_PizzaGirl.webp",
             "tags": [
                 "mastery",
                 "craft",
@@ -49,21 +49,21 @@
         },
         {
             "id": "ag007",
-            "file": "Coloring_ag007_CrouchingFoxSimple2.png",
+            "file": "Coloring_ag007_CrouchingFoxSimple2.webp",
             "tags": [
                 "craft"
             ]
         },
         {
             "id": "ag010",
-            "file": "Coloring_ag010_FlyingSailboat.png",
+            "file": "Coloring_ag010_FlyingSailboat.webp",
             "tags": [
                 "knack"
             ]
         },
         {
             "id": "ag011",
-            "file": "Coloring_ag011_BathTime.png",
+            "file": "Coloring_ag011_BathTime.webp",
             "tags": [
                 "dexterity",
                 "mastery",
@@ -72,7 +72,7 @@
         },
         {
             "id": "DK003",
-            "file": "Coloring_DK003_cosmos.png",
+            "file": "Coloring_DK003_cosmos.webp",
             "tags": [
                 "dexterity",
                 "mastery"
@@ -80,7 +80,7 @@
         },
         {
             "id": "DK006",
-            "file": "Coloring_DK006_castle.png",
+            "file": "Coloring_DK006_castle.webp",
             "tags": [
                 "craft",
                 "imagination"
@@ -88,7 +88,7 @@
         },
         {
             "id": "DK010",
-            "file": "Coloring_DK010_forestroof.png",
+            "file": "Coloring_DK010_forestroof.webp",
             "tags": [
                 "imagination",
                 "craft",
@@ -97,7 +97,7 @@
         },
         {
             "id": "DK011",
-            "file": "Coloring_DK011_interior_ag1.png",
+            "file": "Coloring_DK011_interior_ag1.webp",
             "tags": [
                 "imagination",
                 "virtuosity",
@@ -106,7 +106,7 @@
         },
         {
             "id": "DK012",
-            "file": "Coloring_DK012_hotel.png",
+            "file": "Coloring_DK012_hotel.webp",
             "tags": [
                 "craft",
                 "aptitude"
@@ -114,7 +114,7 @@
         },
         {
             "id": "DK013",
-            "file": "Coloring_DK013_sloth.png",
+            "file": "Coloring_DK013_sloth.webp",
             "tags": [
                 "imagination",
                 "art"
@@ -122,7 +122,7 @@
         },
         {
             "id": "DK014",
-            "file": "Coloring_DK014_cats.png",
+            "file": "Coloring_DK014_cats.webp",
             "tags": [
                 "aptitude",
                 "mastery"
@@ -130,14 +130,14 @@
         },
         {
             "id": "EL001",
-            "file": "Coloring_EL001_Wisteria.png",
+            "file": "Coloring_EL001_Wisteria.webp",
             "tags": [
                 "dexterity"
             ]
         },
         {
             "id": "EL002",
-            "file": "Coloring_EL002_MoulinRouge_ag1.png",
+            "file": "Coloring_EL002_MoulinRouge_ag1.webp",
             "tags": [
                 "imagination",
                 "dexterity",
@@ -146,28 +146,28 @@
         },
         {
             "id": "EL003",
-            "file": "Coloring_EL003_Croissants.png",
+            "file": "Coloring_EL003_Croissants.webp",
             "tags": [
                 "knack"
             ]
         },
         {
             "id": "EL004",
-            "file": "Coloring_EL004_Carousel.png",
+            "file": "Coloring_EL004_Carousel.webp",
             "tags": [
                 "dexterity"
             ]
         },
         {
             "id": "EL005",
-            "file": "Coloring_EL005_ArcDeTriomphe.png",
+            "file": "Coloring_EL005_ArcDeTriomphe.webp",
             "tags": [
                 "mastery"
             ]
         },
         {
             "id": "EL006",
-            "file": "Coloring_EL006_SherlockHolmes.png",
+            "file": "Coloring_EL006_SherlockHolmes.webp",
             "tags": [
                 "knack",
                 "virtuosity",
@@ -176,7 +176,7 @@
         },
         {
             "id": "EL007",
-            "file": "Coloring_EL007_TowerBridge.png",
+            "file": "Coloring_EL007_TowerBridge.webp",
             "tags": [
                 "mastery",
                 "virtuosity"
@@ -184,35 +184,35 @@
         },
         {
             "id": "EL008",
-            "file": "Coloring_EL008_ShipInStorm.png",
+            "file": "Coloring_EL008_ShipInStorm.webp",
             "tags": [
                 "dexterity"
             ]
         },
         {
             "id": "IY01",
-            "file": "Coloring_IY01_WaterNymph_ag1.png",
+            "file": "Coloring_IY01_WaterNymph_ag1.webp",
             "tags": [
                 "virtuosity"
             ]
         },
         {
             "id": "IY02",
-            "file": "Coloring_IY02_BakeryShop.png",
+            "file": "Coloring_IY02_BakeryShop.webp",
             "tags": [
                 "craft"
             ]
         },
         {
             "id": "IY03",
-            "file": "Coloring_IY03_YardPond.png",
+            "file": "Coloring_IY03_YardPond.webp",
             "tags": [
                 "aptitude"
             ]
         },
         {
             "id": "IY04",
-            "file": "Coloring_IY04_TeaParty.png",
+            "file": "Coloring_IY04_TeaParty.webp",
             "tags": [
                 "aptitude",
                 "craft",
@@ -221,7 +221,7 @@
         },
         {
             "id": "IY05",
-            "file": "Coloring_IY05_TreeHouse.png",
+            "file": "Coloring_IY05_TreeHouse.webp",
             "tags": [
                 "craft",
                 "mastery"
@@ -229,14 +229,14 @@
         },
         {
             "id": "IY06",
-            "file": "Coloring_IY06_SydneyOperaHouse.png",
+            "file": "Coloring_IY06_SydneyOperaHouse.webp",
             "tags": [
                 "imagination"
             ]
         },
         {
             "id": "IY07",
-            "file": "Coloring_IY07_ScooterGirl.png",
+            "file": "Coloring_IY07_ScooterGirl.webp",
             "tags": [
                 "dexterity",
                 "art"
@@ -244,7 +244,7 @@
         },
         {
             "id": "IY08",
-            "file": "Coloring_IY08_PirateShip.png",
+            "file": "Coloring_IY08_PirateShip.webp",
             "tags": [
                 "imagination",
                 "virtuosity"
@@ -252,21 +252,21 @@
         },
         {
             "id": "IY11",
-            "file": "Coloring_IY11_EiffelTower.png",
+            "file": "Coloring_IY11_EiffelTower.webp",
             "tags": [
                 "art"
             ]
         },
         {
             "id": "IY12",
-            "file": "Coloring_IY12_HallsOfLouvre.png",
+            "file": "Coloring_IY12_HallsOfLouvre.webp",
             "tags": [
                 "virtuosity"
             ]
         },
         {
             "id": "IY13",
-            "file": "Coloring_IY13_LouvrePyramid.png",
+            "file": "Coloring_IY13_LouvrePyramid.webp",
             "tags": [
                 "art",
                 "dexterity"
@@ -274,7 +274,7 @@
         },
         {
             "id": "IY14",
-            "file": "Coloring_IY14_LuxembourgGardens.png",
+            "file": "Coloring_IY14_LuxembourgGardens.webp",
             "tags": [
                 "mastery",
                 "knack",
@@ -283,7 +283,7 @@
         },
         {
             "id": "IY15",
-            "file": "Coloring_IY15_PontDesArts.png",
+            "file": "Coloring_IY15_PontDesArts.webp",
             "tags": [
                 "knack",
                 "aptitude",
@@ -292,7 +292,7 @@
         },
         {
             "id": "IY16",
-            "file": "Coloring_IY16_Grinder.png",
+            "file": "Coloring_IY16_Grinder.webp",
             "tags": [
                 "dexterity",
                 "imagination"
@@ -300,14 +300,14 @@
         },
         {
             "id": "IY17",
-            "file": "Coloring_IY17_ElysianFields.png",
+            "file": "Coloring_IY17_ElysianFields.webp",
             "tags": [
                 "dexterity"
             ]
         },
         {
             "id": "IY18",
-            "file": "Coloring_IY18_SmallCar.png",
+            "file": "Coloring_IY18_SmallCar.webp",
             "tags": [
                 "imagination",
                 "knack"
@@ -315,7 +315,7 @@
         },
         {
             "id": "IY19",
-            "file": "Coloring_IY19_BoatOnTheSeine.png",
+            "file": "Coloring_IY19_BoatOnTheSeine.webp",
             "tags": [
                 "dexterity",
                 "craft",
@@ -324,7 +324,7 @@
         },
         {
             "id": "IY20",
-            "file": "Coloring_IY20_AmusementPark.png",
+            "file": "Coloring_IY20_AmusementPark.webp",
             "tags": [
                 "art",
                 "aptitude"
@@ -332,7 +332,7 @@
         },
         {
             "id": "IY21",
-            "file": "Coloring_IY21_NotreDameDeParis_2.png",
+            "file": "Coloring_IY21_NotreDameDeParis_2.webp",
             "tags": [
                 "craft",
                 "virtuosity",
@@ -341,7 +341,7 @@
         },
         {
             "id": "IY22",
-            "file": "Coloring_IY22_GirlAtPantheon.png",
+            "file": "Coloring_IY22_GirlAtPantheon.webp",
             "tags": [
                 "mastery",
                 "imagination"
@@ -349,7 +349,7 @@
         },
         {
             "id": "IY23",
-            "file": "Coloring_IY23_AmelieCafe.png",
+            "file": "Coloring_IY23_AmelieCafe.webp",
             "tags": [
                 "aptitude",
                 "imagination",
@@ -358,14 +358,14 @@
         },
         {
             "id": "IY24",
-            "file": "Coloring_IY24_BigBen.png",
+            "file": "Coloring_IY24_BigBen.webp",
             "tags": [
                 "virtuosity"
             ]
         },
         {
             "id": "IY25",
-            "file": "Coloring_IY25_BuckinghamPalace.png",
+            "file": "Coloring_IY25_BuckinghamPalace.webp",
             "tags": [
                 "art",
                 "craft"
@@ -373,14 +373,14 @@
         },
         {
             "id": "IY26",
-            "file": "Coloring_IY26_TussaudsWaxFigures.png",
+            "file": "Coloring_IY26_TussaudsWaxFigures.webp",
             "tags": [
                 "art"
             ]
         },
         {
             "id": "IY27",
-            "file": "Coloring_IY27_Coronation.png",
+            "file": "Coloring_IY27_Coronation.webp",
             "tags": [
                 "imagination",
                 "dexterity",
@@ -389,7 +389,7 @@
         },
         {
             "id": "IY28",
-            "file": "Coloring_IY28_QueenCorgis.png",
+            "file": "Coloring_IY28_QueenCorgis.webp",
             "tags": [
                 "aptitude",
                 "virtuosity",
@@ -398,21 +398,21 @@
         },
         {
             "id": "IY29",
-            "file": "Coloring_IY29_EnglishBreakfast.png",
+            "file": "Coloring_IY29_EnglishBreakfast.webp",
             "tags": [
                 "dexterity"
             ]
         },
         {
             "id": "IY30",
-            "file": "Coloring_IY30_DoubleDeckerBus.png",
+            "file": "Coloring_IY30_DoubleDeckerBus.webp",
             "tags": [
                 "imagination"
             ]
         },
         {
             "id": "IY31",
-            "file": "Coloring_IY31_TelephoneBox.png",
+            "file": "Coloring_IY31_TelephoneBox.webp",
             "tags": [
                 "aptitude",
                 "knack",
@@ -421,14 +421,14 @@
         },
         {
             "id": "IY32",
-            "file": "Coloring_IY32_Shakespeare.png",
+            "file": "Coloring_IY32_Shakespeare.webp",
             "tags": [
                 "knack"
             ]
         },
         {
             "id": "IY33",
-            "file": "Coloring_IY33_LondonEye.png",
+            "file": "Coloring_IY33_LondonEye.webp",
             "tags": [
                 "virtuosity",
                 "dexterity"
@@ -436,7 +436,7 @@
         },
         {
             "id": "kz01",
-            "file": "coloring_kz01_toucan_ag1.png",
+            "file": "coloring_kz01_toucan_ag1.webp",
             "tags": [
                 "imagination",
                 "aptitude"
@@ -444,7 +444,7 @@
         },
         {
             "id": "KZ02",
-            "file": "Coloring_KZ02_DressAndPerfume.png",
+            "file": "Coloring_KZ02_DressAndPerfume.webp",
             "tags": [
                 "virtuosity",
                 "dexterity"
@@ -452,7 +452,7 @@
         },
         {
             "id": "KZ03",
-            "file": "Coloring_KZ03_Beatles.png",
+            "file": "Coloring_KZ03_Beatles.webp",
             "tags": [
                 "imagination",
                 "aptitude",
@@ -461,7 +461,7 @@
         },
         {
             "id": "nu008",
-            "file": "Coloring_nu008_GirlWithKites.png",
+            "file": "Coloring_nu008_GirlWithKites.webp",
             "tags": [
                 "art",
                 "craft",
@@ -470,14 +470,14 @@
         },
         {
             "id": "nu009",
-            "file": "Coloring_nu009_GirlWithWreath.png",
+            "file": "Coloring_nu009_GirlWithWreath.webp",
             "tags": [
                 "art"
             ]
         },
         {
             "id": "nu011",
-            "file": "Coloring_nu011_Kitchen.png",
+            "file": "Coloring_nu011_Kitchen.webp",
             "tags": [
                 "art",
                 "dexterity"
@@ -485,7 +485,7 @@
         },
         {
             "id": "nu012",
-            "file": "Coloring_nu012_WindowDreamGirl.png",
+            "file": "Coloring_nu012_WindowDreamGirl.webp",
             "tags": [
                 "virtuosity",
                 "knack"
@@ -493,7 +493,7 @@
         },
         {
             "id": "nu013",
-            "file": "Coloring_nu013_Cosmos.png",
+            "file": "Coloring_nu013_Cosmos.webp",
             "tags": [
                 "virtuosity",
                 "craft"
@@ -501,7 +501,7 @@
         },
         {
             "id": "nu014",
-            "file": "Coloring_nu014_Bento.png",
+            "file": "Coloring_nu014_Bento.webp",
             "tags": [
                 "knack",
                 "virtuosity"
@@ -509,7 +509,7 @@
         },
         {
             "id": "nu015",
-            "file": "Coloring_nu015_Underwater.png",
+            "file": "Coloring_nu015_Underwater.webp",
             "tags": [
                 "dexterity",
                 "art"
@@ -517,7 +517,7 @@
         },
         {
             "id": "nu016",
-            "file": "Coloring_nu016_ReadingBook.png",
+            "file": "Coloring_nu016_ReadingBook.webp",
             "tags": [
                 "imagination",
                 "knack"
@@ -525,7 +525,7 @@
         },
         {
             "id": "nu017",
-            "file": "Coloring_nu017_Lake.png",
+            "file": "Coloring_nu017_Lake.webp",
             "tags": [
                 "virtuosity",
                 "art",
@@ -534,7 +534,7 @@
         },
         {
             "id": "nu018",
-            "file": "Coloring_nu018_Alpinist.png",
+            "file": "Coloring_nu018_Alpinist.webp",
             "tags": [
                 "art",
                 "imagination",
@@ -543,42 +543,42 @@
         },
         {
             "id": "nu019",
-            "file": "Coloring_nu019_BeachSunset.png",
+            "file": "Coloring_nu019_BeachSunset.webp",
             "tags": [
                 "craft"
             ]
         },
         {
             "id": "nu020",
-            "file": "Coloring_nu020_InBed.png",
+            "file": "Coloring_nu020_InBed.webp",
             "tags": [
                 "imagination"
             ]
         },
         {
             "id": "nu021",
-            "file": "Coloring_nu021_Skater.png",
+            "file": "Coloring_nu021_Skater.webp",
             "tags": [
                 "imagination"
             ]
         },
         {
             "id": "nu022",
-            "file": "Coloring_nu022_NorthernLights.png",
+            "file": "Coloring_nu022_NorthernLights.webp",
             "tags": [
                 "mastery"
             ]
         },
         {
             "id": "nu023",
-            "file": "Coloring_nu023_TouristBus.png",
+            "file": "Coloring_nu023_TouristBus.webp",
             "tags": [
                 "virtuosity"
             ]
         },
         {
             "id": "nu024",
-            "file": "Coloring_nu024_SleepingOnTable.png",
+            "file": "Coloring_nu024_SleepingOnTable.webp",
             "tags": [
                 "craft",
                 "aptitude",
@@ -587,7 +587,7 @@
         },
         {
             "id": "nu025",
-            "file": "Coloring_nu025_Yoga.png",
+            "file": "Coloring_nu025_Yoga.webp",
             "tags": [
                 "art",
                 "aptitude"
@@ -595,7 +595,7 @@
         },
         {
             "id": "nu026",
-            "file": "Coloring_nu026_FlowerSmell.png",
+            "file": "Coloring_nu026_FlowerSmell.webp",
             "tags": [
                 "art",
                 "virtuosity"
@@ -603,7 +603,7 @@
         },
         {
             "id": "nu027",
-            "file": "Coloring_nu027_WinterForest.png",
+            "file": "Coloring_nu027_WinterForest.webp",
             "tags": [
                 "aptitude",
                 "art"
@@ -611,7 +611,7 @@
         },
         {
             "id": "nu028",
-            "file": "Coloring_nu028_Baloon.png",
+            "file": "Coloring_nu028_Baloon.webp",
             "tags": [
                 "knack",
                 "mastery"
@@ -619,14 +619,14 @@
         },
         {
             "id": "nu029",
-            "file": "Coloring_nu029_City.png",
+            "file": "Coloring_nu029_City.webp",
             "tags": [
                 "imagination"
             ]
         },
         {
             "id": "nu030",
-            "file": "Coloring_nu030_Date.png",
+            "file": "Coloring_nu030_Date.webp",
             "tags": [
                 "knack",
                 "imagination"
@@ -634,14 +634,14 @@
         },
         {
             "id": "nu031",
-            "file": "Coloring_nu031_OnBalcony.png",
+            "file": "Coloring_nu031_OnBalcony.webp",
             "tags": [
                 "aptitude"
             ]
         },
         {
             "id": "nu032",
-            "file": "Coloring_nu032_SupermarketFun.png",
+            "file": "Coloring_nu032_SupermarketFun.webp",
             "tags": [
                 "dexterity",
                 "knack",
@@ -650,7 +650,7 @@
         },
         {
             "id": "nu033",
-            "file": "Coloring_nu033_WaterfallParty.png",
+            "file": "Coloring_nu033_WaterfallParty.webp",
             "tags": [
                 "imagination",
                 "craft"
@@ -658,14 +658,14 @@
         },
         {
             "id": "nu034",
-            "file": "Coloring_nu034_SwimmigPool.png",
+            "file": "Coloring_nu034_SwimmigPool.webp",
             "tags": [
                 "art"
             ]
         },
         {
             "id": "nu035",
-            "file": "Coloring_nu035_Carousel.png",
+            "file": "Coloring_nu035_Carousel.webp",
             "tags": [
                 "dexterity",
                 "knack"
@@ -673,7 +673,7 @@
         },
         {
             "id": "nu036",
-            "file": "Coloring_nu036_Cinema.png",
+            "file": "Coloring_nu036_Cinema.webp",
             "tags": [
                 "aptitude",
                 "mastery"
@@ -681,7 +681,7 @@
         },
         {
             "id": "nu037",
-            "file": "Coloring_nu037_Cowboy.png",
+            "file": "Coloring_nu037_Cowboy.webp",
             "tags": [
                 "art",
                 "virtuosity"
@@ -689,7 +689,7 @@
         },
         {
             "id": "nu038",
-            "file": "Coloring_nu038_Serenade.png",
+            "file": "Coloring_nu038_Serenade.webp",
             "tags": [
                 "mastery",
                 "knack"
@@ -697,28 +697,28 @@
         },
         {
             "id": "nu039",
-            "file": "Coloring_nu039_Lanterns_ag1.png",
+            "file": "Coloring_nu039_Lanterns_ag1.webp",
             "tags": [
                 "dexterity"
             ]
         },
         {
             "id": "nu040",
-            "file": "Coloring_nu040_Dog.png",
+            "file": "Coloring_nu040_Dog.webp",
             "tags": [
                 "craft"
             ]
         },
         {
             "id": "nu041",
-            "file": "Coloring_nu041_ButterflyGirl_ag1.png",
+            "file": "Coloring_nu041_ButterflyGirl_ag1.webp",
             "tags": [
                 "aptitude"
             ]
         },
         {
             "id": "nu042",
-            "file": "Coloring_nu042_AirportGirl.png",
+            "file": "Coloring_nu042_AirportGirl.webp",
             "tags": [
                 "virtuosity",
                 "knack",
@@ -727,7 +727,7 @@
         },
         {
             "id": "nu043",
-            "file": "Coloring_nu043_PicnicDate.png",
+            "file": "Coloring_nu043_PicnicDate.webp",
             "tags": [
                 "art",
                 "dexterity"
@@ -735,7 +735,7 @@
         },
         {
             "id": "nu044",
-            "file": "Coloring_nu044_Wedding.png",
+            "file": "Coloring_nu044_Wedding.webp",
             "tags": [
                 "art",
                 "knack"
@@ -743,7 +743,7 @@
         },
         {
             "id": "nu045",
-            "file": "Coloring_nu045_DateOnSteps.png",
+            "file": "Coloring_nu045_DateOnSteps.webp",
             "tags": [
                 "knack",
                 "craft",
@@ -752,7 +752,7 @@
         },
         {
             "id": "nu046",
-            "file": "Coloring_nu046_CarryingInArms.png",
+            "file": "Coloring_nu046_CarryingInArms.webp",
             "tags": [
                 "virtuosity",
                 "art",
@@ -761,7 +761,7 @@
         },
         {
             "id": "of001",
-            "file": "Coloring_of001_test-dragon-2_ag1.png",
+            "file": "Coloring_of001_test-dragon-2_ag1.webp",
             "tags": [
                 "craft",
                 "aptitude"
